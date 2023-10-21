@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -40,14 +41,19 @@ public class Player : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Car"))
         {
-            Time.timeScale = 0;
             isGameOver = true;
             Debug.Log("Game Over !");
+            Invoke("RestartGame",1);
         }
         else if(other.gameObject.CompareTag("Goal"))
         {
             FindObjectOfType<GameManager>().IncreaseScore();
         }
+    }
+
+    void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
 }
