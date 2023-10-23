@@ -1,11 +1,11 @@
 
 # Frogger
 
-Our goal in the game is to cross the road
+The goal in the game is to cross the road
 
-You earn points when you cross the road and you return to the starting point
+Player earns points when player cross the road and player return to the starting point
 
-If the car hits you, you lose all your points and the game starts from the beginning
+If the car hits player, player loses all points and the game starts from the beginning
 
 
 # Gameplay
