@@ -12,7 +12,6 @@ If the car hits you, you lose all your points and the game starts from the begin
 
 <img src="https://github.com/muratkrdl/Unity-Frogger/blob/main/Frogger.gif" width="auto">
 
-
 ## Authors
 
 - [@muratkrdl](https://github.com/muratkrdl)
